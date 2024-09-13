@@ -36,7 +36,7 @@ export NVM_DIR="$INSTALL_DIR.config/nvm"
 nvm install 16.15.1
 
 # NEOVIM
-wget https://github.com/neovim/neovim/releases/download/v0.9.5/nvim-linux64.tar.gz
+wget https://github.com/neovim/neovim/releases/download/v0.10.1/nvim-linux64.tar.gz
 tar xzvf nvim-linux64.tar.gz
 sudo ln -s "${INSTALL_DIR}nvim-linux64/bin/nvim" /usr/local/bin/nvim
 sudo apt-get install -y python3-venv
